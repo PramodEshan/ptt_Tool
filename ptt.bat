@@ -14,7 +14,6 @@ if "%output%" == "List of devices attached" (
  echo No Device Found
  echo Waiting for 5 seconds...
  timeout /t 5 /nobreak >nul
- start cmd.exe /k "ptt"
  exit
 )
 
